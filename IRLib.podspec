@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/intrtl/IRLib.git"
   spec.license      = "MIT"
   spec.author       = { "Alexander Shmakov" => "alexander.shmakov@ailet.com" }
-  spec.platform     = :ios, "12.0"
+  spec.platform     = :ios, "13.4"
   spec.source       = { :git => "https://github.com/intrtl/IRLib.git", :tag => "#{spec.version}" }
   spec.ios.vendored_frameworks = "IrLib.xcframework"
   spec.frameworks = "CoreMotion", "UserNotifications"
